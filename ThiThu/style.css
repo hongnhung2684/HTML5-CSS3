@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./DETHI13/font/UTM\ Duepuntozero.ttf);
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+
+}
+header{
+    width: 980px;
+    height: 100px;
+    background: orange;
+
+}
+header img{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+nav{
+    height: 35px;
+    background:rgb(18, 18, 133) ;
+    margin-bottom: 5px;
+   
+}
+nav .menu ul{
+    list-style: none;
+
+}
+nav .menu ul li{
+    float: left;
+    padding: 0 15px;
+    line-height: 35px;
+
+}
+nav .menu ul li a{
+    color: azure;
+    font-size: 14px;
+    text-decoration: none;
+}
+nav .menu ul li a:hover{
+    color: orange;
+    font-weight: bold;
+    text-decoration:underline;
+}
+nav .search{
+    float: right;
+    line-height: 35px;
+    margin-right: 20px;
+}
+article h3{
+    text-align: center;
+    padding: 15px 0;
+    color: rgb(18, 18, 116);
+    font-size: 20px;
+}
+article .new_list .news_item{
+    width: 28%;
+    padding: 1%;
+    float: left;
+    border: 1px solid rgb(46, 15, 146);
+    margin-right:4%;
+}
+#fix{
+    margin-right: 0;
+}
+article .new_list .news_item h4{
+    font-size: 16px;
+    color: rgb(159, 43, 43);
+}
+article .new_list .news_item img{
+    margin: 10px 0;
+}
+article .new_list .news_item .content{
+    font-size: 14px;
+    margin: 0 5px;
+}
+footer{
+    height: 40px;
+    width: 966px;
+    background: rgb(23, 23, 148); 
+    line-height: 40px; 
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+

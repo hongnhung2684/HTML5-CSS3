@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display grid</title>
+    <style>
+        .row{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-column-gap: 30px;
+        }
+        .col{
+            background: green;
+            border: 1px solid black;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            column 1
+        </div>
+        <div class="col">
+            column 2
+        </div>
+        <div class="col">
+            column 3
+        </div>
+        <div class="col">
+            column 4
+        </div>
+    </div>
+    
+</body>
+</html>

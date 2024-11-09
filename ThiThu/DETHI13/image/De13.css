@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+}
+header input{
+    padding: 10px 15px;
+    height:30px;
+    margin-top: 40px;
+}
+nav{
+    height: 60px;
+    background: black;
+}
+nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   
+}
+nav ul li{
+    margin: 5px 20px;
+    line-height: 60px;
+    
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+.active{
+    background: rgb(118, 109, 109);
+    width: 70px;
+    height: 100%;
+}
+nav ul li a:hover{
+    background: rgb(118, 109, 109);
+}
+.banner img{
+    width: 100%;
+    margin: 10px 0;
+}
+.content{
+    display: flex;
+}
+.content img{
+    width: 80%;
+   
+}
+.product-list{
+    display: flex;
+}
+.product2-img{
+    width: 245px;
+    height: 200px;
+    margin-right: 0;
+    transform: scale(1.1);
+   
+}
+.product1 img{
+    width: 245px;
+    height:200px;
+    transform: scale(1.1);
+}
+.product1{
+    margin: 5px 50px;
+    border: 1px solid black;
+}
+.product2{
+    border: 1px solid black;
+}
+.btn{
+    padding: 5px 20px;
+    color: red;
+    background: rgb(146, 204, 146);
+    border: none;
+    margin: 7px ;
+}
+.info{
+    padding: 10px 20px;
+}
+.info h3{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.product-detail span{
+    font-weight: bold;
+    font-size: 12px ;
+}
+.product1{
+    position: relative;
+    overflow: hidden;
+}
+.product2{
+    position: relative;
+    overflow: hidden;
+}
+.product-detail{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    transform: translateY(100%);
+    transition: 0.8s;
+}
+.product1:hover .product-detail{
+    transform: translateY(0);
+
+}
+.product1 .info h3:hover{
+    text-decoration: underline;
+}
+.product2:hover .product-detail{
+    transform: translateY(0);
+
+}

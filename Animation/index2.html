@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+        }
+        .box:hover img{
+            transform: skew(45deg);
+        }
+        .transition{
+            width: 200px;
+            height: 200px;
+        }
+        .transition:hover img{
+            transition: 1s ease-in-out;
+            transform: skew(-45deg);
+            transform-origin: 0% 55%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="./th.jpg" alt="">
+    </div>
+    <div class="transition">
+        <img src="./th.jpg" alt="">
+    </div>
+</body>
+</html>
